@@ -20,8 +20,9 @@ test('Intentional failure for SonarCloud', () => {
 public void someMethod() {
     // Method implementation
 a
-  b
-  c
+x
+  y
+  z
 }
 test('Intentional failure for SonarCloud', () => {
   expect(1 + 1).toBe(3); // This will fail
