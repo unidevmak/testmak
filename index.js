@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   const userInput = req.query.input;
   // Intentional Bug: Using eval() can lead to code injection vulnerabilities.
   // let result = eval("2 + " + userInput); 
-  res.send(`Result is: true`);
+  res.send(`Result is: ${userInput}`);
 });
 
 // Unused variable example (dead code)
